@@ -51,6 +51,8 @@ void AMySnakeActor::Tick(float DeltaTime)
 
 		BuferTime = 0;
 	}
+
+	//SelfEating();
 }
 
 void AMySnakeActor::CreateSnakeBody()
@@ -141,4 +143,14 @@ void AMySnakeActor::HaveDamage()
 {
 	WhoPawn->SnakeDestroy();
 }
+
+//void AMySnakeActor::SelfEating()
+//{
+//	bool Eating = SnakeBody[0]->OnComponentBeginOverlap.AddDynamic(this, SnakeBody);
+//
+//	if (Eating)
+//	{
+//		HaveDamage();
+//	}
+//}
 

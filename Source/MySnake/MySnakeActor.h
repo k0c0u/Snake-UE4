@@ -61,4 +61,6 @@ public:
 	AMyPawnCamera* WhoPawn;
 
 	void HaveDamage();
+
+	//void SelfEating();
 };

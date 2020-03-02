@@ -32,7 +32,7 @@ public:
 
 	void CollectEat();
 
-	float StepDelay = 2.0f;
+	float StepDelay = 5.0f;
 
 	float BuferTime = 0;
 };
